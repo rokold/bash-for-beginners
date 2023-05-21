@@ -2,6 +2,8 @@
 
 number=25
 
+echo $((number % 10))
+
 if [ $((number % 2)) -eq 0 ];
 then
    echo "The number $number is even!";
